@@ -8,10 +8,10 @@ class Person:
 
     def __repr__(self):
         return f"{self.name} | {self.phone} | {self.email}"
-    
 
 
 # ContactsApp class
+# ContactsApp class stores all contacts in the dictionary
 class ContactsApp:
     def __init__(self):
         self.contacts = {}
