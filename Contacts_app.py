@@ -16,12 +16,16 @@ class ContactsApp:
     def __init__(self):
         self.contacts = {}
 
+
+ # All the methods to add and remove contacts 
+ # add_person returns False if contact already exists 
     def add_person(self, name, phone, email):
         if name in self.contacts:
             return False
         self.contacts[name] = Person(name, phone, email)
         return True
 
+ # remove_person returns False if contact not found  
     def remove_person(self, name):
         if name in self.contacts:
             del self.contacts[name]
