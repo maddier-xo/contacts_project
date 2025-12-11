@@ -32,9 +32,14 @@ class ContactsApp:
             return True
         return False
 
+
+ # Retrieval methods 
+ # get_person returns a single contact or none if not founds
     def get_person(self, name):
         return self.contacts.get(name)
 
+
+ # get_all  returns a list of all contacts 
     def get_all(self):
         return list(self.contacts.values())
 
