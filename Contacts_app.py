@@ -1,4 +1,5 @@
 # Person class
+# Class represents a single contact
 class Person:
     def __init__(self, name, phone, email):
         self.name = name
