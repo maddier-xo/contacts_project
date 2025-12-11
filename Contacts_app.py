@@ -55,6 +55,7 @@ class ContactsApp:
 
 
 # Main Menu
+# main() provides an interactive menu for all the functions 
 def main():
     app = ContactsApp()  
     while True:
