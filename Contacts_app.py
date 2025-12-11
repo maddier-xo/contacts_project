@@ -61,7 +61,7 @@ def main():
     while True:
         print("\nMenu:")
         print("1. Add Contact  2. Remove Contact  3. Exact Search")
-        print("4. Partial Search  5. List All  6. List Sorted  0. Exit")
+        print("4. Partial Search  5. List All Contacts  6. List Sorted  0. Exit")
 
         choice = input("Enter your choice: ").strip()
 
